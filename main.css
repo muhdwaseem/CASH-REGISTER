@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&family=Fira+Sans&family=PT+Sans:ital@0;1&family=Work+Sans&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+.container{
+   margin: 2rem auto 3rem;
+   text-align: center;
+}
+
+:root{
+ --primary-color: #374151;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    min-width: 100vw;
+}
+.heading{
+    color: var(--primary-color);
+}
+.description{
+    font-size: larger;
+    margin: 2rem;
+}
+.input-label{
+    display: block;
+    font-size: large;
+    font-weight: 400;
+
+}
+.input{
+    font-size: 20px;
+    outline:#4B5563;
+    padding: 0.4rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 1rem;
+    width: 75%;
+    max-width: 200px;
+}
+#check-button{
+    background: var(--primary-color);
+    border: none;
+    color: #6B7280;
+    padding: 0.4rem 1rem;
+    border-radius:1rem ;
+    font-size: large;
+    cursor: pointer;
+    outline:#4B5563 ;
+    margin: auto;
+    display: block;
+
+}
+#error-message{
+    display: block;
+    font-size: large;
+    margin: 1rem;
+}
+.change-table{
+    width: 60%;
+    text-align: justify;
+    border-collapse: separate;
+    margin: auto;
+}
+.change-table caption{
+    margin: 1rem;
+    font-size:x-large ;
+    font-weight: 400;
+}
+th,td{
+    border: 2px solid var(--primary-color);
+    width: 0%;
+border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+
+
+
+
