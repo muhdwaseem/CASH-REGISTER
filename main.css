@@ -12,6 +12,7 @@
 .container{
    margin: 2rem auto 3rem;
    text-align: center;
+ 
 }
 
 :root{
@@ -27,6 +28,7 @@ body{
 .description{
     font-size: larger;
     margin: 2rem;
+    background-color: lightgray;
 }
 .input-label{
     display: block;
