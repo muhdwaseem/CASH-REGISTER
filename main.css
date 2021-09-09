@@ -28,7 +28,7 @@ body{
 .description{
     font-size: larger;
     margin: 2rem;
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 .input-label{
     display: block;
@@ -75,12 +75,14 @@ body{
     font-size:x-large ;
     font-weight: 400;
 }
+
 th,td{
     border: 2px solid var(--primary-color);
     width: 0%;
 border-collapse: collapse;
     padding: 0.5rem;
 }
+
 
 
 
